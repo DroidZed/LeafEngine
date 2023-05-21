@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 rich = "*"
-motor = "*"
+motor = {extras = ["srv"], version = "*"}
 
 [dev-packages]
 pre-commit = "*"
