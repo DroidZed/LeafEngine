@@ -6,12 +6,14 @@ name = "pypi"
 [packages]
 rich = "*"
 motor = {extras = ["srv"], version = "*"}
+motor-types = "*"
 
 [dev-packages]
 pre-commit = "*"
 black = "*"
 pylint = "*"
 isort = {extras = ["pipfile_deprecated_finder"], version = "*"}
+pytest = "*"
 
 [requires]
 python_version = "3.11"
