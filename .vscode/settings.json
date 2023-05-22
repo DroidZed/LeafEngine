@@ -1,4 +1,5 @@
 {
 	"esbonio.sphinx.confDir": "",
-	"python.analysis.typeCheckingMode": "basic"
+	"python.analysis.typeCheckingMode": "basic",
+	"iis.configDir": ""
 }
