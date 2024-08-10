@@ -1,6 +1,20 @@
-[tool.black]
-line-length = 60
-target-version = ['py311']
-include = '\.pyi?$'
-[tool.isort]
-profile = "black"
+[tool.poetry]
+name = "leafengine"
+version = "0.0.1"
+description = "Async MongoDB ODM"
+authors = ["DroidZed <41507665+DroidZed@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+motor = { version = "^3.5.1", extras = ["srv"] }
+attrs = "^24.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.8.0"
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
